@@ -26,3 +26,36 @@ section > a {
   display: flex;
   flex-direction: column;
 }
+
+.form {
+  margin: 1rem 0;
+}
+
+.input-search {
+  padding: 0.5rem 2rem;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  text-align: start;
+  border-radius: 0.3rem;
+  outline: none;
+}
+
+.input-search:focus {
+  border: red;
+}
+
+.btn-search {
+  padding: 0.5rem 2rem;
+  border: none;
+  margin-left: 0.3rem;
+  background-color: #09f;
+  color: #fff;
+  border-radius: 0.3rem;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  background-color: rgb(0, 102, 170);
+}
