@@ -8,8 +8,7 @@ const POPULAR_GIFS = ['Messi', 'Ronaldo', 'Neymar', 'Mbappe']
 export default function Home() {
   const [keyword, setKeyword] = useState('')
   const [push, pushLocation] = useLocation()
-  // const { loading, gifs } = useGifs()
-  const [gifs, setGifs] = useState([])
+  const { loading, gifs } = useGifs()
 
   const handleSubmit = (e) => {
     e.preventDefault()

@@ -34,7 +34,7 @@ section > a {
 .input-search {
   padding: 0.5rem 2rem;
   border: none;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.9);
   text-align: start;
   border-radius: 0.3rem;
