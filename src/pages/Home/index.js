@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'wouter'
 import ListOfGifs from '../../components/ListOfGifs/ListOfGifs'
+import TrendingSearches from '../../components/TrendingSearches'
 import { useGifs } from '../../hooks/useGifs'
 
 const POPULAR_GIFS = ['Messi', 'Ronaldo', 'Neymar', 'Mbappe']
@@ -42,6 +43,9 @@ export default function Home() {
           </li>
         ))}
       </ul>
+      <div className='App-category'>
+        <TrendingSearches />
+      </div>
     </>
   )
 }
